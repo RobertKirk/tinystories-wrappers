@@ -1,0 +1,14 @@
+__pycache__/*
+wandb
+data/*
+Session.vim
+.DS_Store
+*.pdf
+cache
+.envrc
+.vscode
+wandb_data
+*.csv
+*.txt
+artifacts
+models_compressed.tar.gz

@@ -1,0 +1,24 @@
+command:
+  - ${env}
+  - ${interpreter}
+  - ${program}
+  - configs/base91M_tw_delete_no_lrs.py
+  - ${args}
+method: grid
+parameters:
+  dataset_name:
+    values:
+      - filter-Twist
+      - filter-Twist-specialise-Foreshadowing
+      - filter-adv-Twist
+      - filter-adv-Twist-specialise-Foreshadowing
+      - filter-mix-Twist-Foreshadowing
+      - filter-mix-specialise-Twist-Foreshadowing
+      - filter-ref-Twist
+      - filter-ref-Twist-specialise-Foreshadowing
+  learning_rate:
+    values:
+      - 0.001
+      - 0.0001
+      - 1e-05
+program: train.py

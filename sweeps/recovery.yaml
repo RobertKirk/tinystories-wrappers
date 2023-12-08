@@ -1,0 +1,33 @@
+command:
+  - ${env}
+  - ${interpreter}
+  - ${program}
+  - configs/base91M_tw_recover_no_lrs.py
+  - ${args}
+method: grid
+parameters:
+  learning_rate:
+    values:
+      - 1e-05
+  model_dir:
+    values:  # These are taken from models trained in recovery sweep
+      - /cache/tinystories/base91M-train-2023_10_06_15_15_49_074/out
+      - /cache/tinystories/base91M-train-2023_10_06_10_00_16_244/out
+      - /cache/tinystories/base91M-train-2023_10_06_09_59_44_568/out
+      - /cache/tinystories/base91M-train-2023_10_06_15_15_47_207/out
+      - /cache/tinystories/base91M-train-2023_10_06_09_59_36_073/out
+      - /cache/tinystories/base91M-train-2023_10_06_15_15_56_159/out
+      - /cache/tinystories/base91M-train-2023_10_06_10_00_20_609/out
+      - /cache/tinystories/base91M-train-2023_10_06_15_15_49_388/out
+      - /cache/tinystories/base91M-train-2023_10_06_09_59_41_653/out
+      - /cache/tinystories/base91M-train-2023_10_06_15_15_47_400/out
+      - /cache/tinystories/base91M-train-2023_10_06_09_59_46_919/out
+      - /cache/tinystories/base91M-train-2023_10_06_15_15_51_618/out
+      - /cache/tinystories/base91M-train-2023_10_06_10_00_23_423/out
+      - /cache/tinystories/base91M-train-2023_10_06_09_59_44_609/out
+      - /cache/tinystories/base91M-train-2023_10_06_15_16_00_499/out
+      - /cache/tinystories/base91M-train-2023_10_06_15_15_48_349/out
+      - /cache/tinystories/base91M-train-2023_10_06_09_59_55_877/out
+      - /cache/tinystories/base91M-train-2023_10_06_15_16_07_109/out
+      - /cache/tinystories/base-91M-x-twist/out
+program: train.py
