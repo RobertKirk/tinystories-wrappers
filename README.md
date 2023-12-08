@@ -1,7 +1,7 @@
-## llama2.c
+## Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks
 
 <p align="center">
-  <img src="assets/llama_cute.jpg" width="300" height="300" alt="Cute Llama">
+  <img src="assets/uft gif.gif" width="1000" height="300">
 </p>
 
 This is the code for the TinyStories experiments from the paper: [Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks](https://arxiv.org/abs/2311.12786). The code is based on the awesome https://github.com/karpathy/llama2.c.
