@@ -63,6 +63,8 @@ You can download the base, post-deletion and post-recovery fine-tuning models he
 
 You should extract the models from that file, and then look at [model_names.md](model_names.md) to see which model is which.
 
+The tokenizer for these models is in `tokenizers/`. You will need to copy these files to the `DATA_CACHE_DIR` you're using for model checkpoints.
+
 ## Running Training
 
 To run training, use `python train.py <args>`. You can create a specific training configuration by copying a file in `configs` and adjusting the arguments to your needs, and arguments can also be overridden on the command line, like so:
