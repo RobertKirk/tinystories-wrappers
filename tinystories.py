@@ -57,7 +57,7 @@ def make_instruction(example: dict) -> dict:
     }
 
 
-def make_text(example: dict, instruction_subset: set) -> str:
+def make_text(example: dict, instruction_subset: set = None) -> str:
     instructions = make_instruction(example)
     if instruction_subset:
         instructions = {k: v for k, v in instructions.items() if k in instruction_subset}
