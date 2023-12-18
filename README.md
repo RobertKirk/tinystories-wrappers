@@ -57,7 +57,7 @@ To generate all the datasets necessary for the deletion and recovery experiments
 
 ## Downloading already-trained models
 
-You can download the base, post-deletion and post-recovery fine-tuning models here: https://drive.google.com/file/d/1yG-T-OjMjtIzlxk-AvDzZHoIsWYnAbKN/view?usp=sharing.
+You can download the base, post-deletion and post-recovery fine-tuning models here: https://drive.google.com/file/d/19DUv1xv2Uw789He4ZC5BB5bMKNrRuG7q/view?usp=sharing
 
 You should extract the models from that file, and then look at [model_names.md](model_names.md) to see which model is which.
 

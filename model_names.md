@@ -1,6 +1,6 @@
 # Model Names
 
-This details the learning rates and datasets used for each model in the download: https://drive.google.com/file/d/1yG-T-OjMjtIzlxk-AvDzZHoIsWYnAbKN/view?usp=sharing.
+This details the learning rates and datasets used for each model in the download: https://drive.google.com/file/d/19DUv1xv2Uw789He4ZC5BB5bMKNrRuG7q/view?usp=sharing
 
 ## Deletion models
 
